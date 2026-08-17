@@ -49,9 +49,16 @@ Add python.exe to Pathにチェックを入れてください。
 ```
 pip install pyhula-1.1.8-cp312-cp312-win_amd64.whl
 ```
-でAPIをインストールしてください。
+でpyhulaをインストールしてください。
 
 ![代替テキスト](image/pythoninstall8.png)
 
+必要なライブラリは自動でインストールされます。
 
 ![代替テキスト](image/pythoninstall10.png)
+
+最後に
+```
+Successfully installed pyhula...
+```
+と出力されれば完了です。
