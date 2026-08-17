@@ -22,11 +22,10 @@ zipファイルにインストールするためのexe.実行ファイルがあ�
 python-3.12.10-amd64.exe
 ```
 
-Add python.exe to Pathにチェックを入れてください。
-
 ![代替テキスト](image/pythoninstall2.png)
 
 
+Add python.exe to Pathにチェックを入れてください。
 
 ![代替テキスト](image/pythoninstall3.png)
 
@@ -37,6 +36,7 @@ Add python.exe to Pathにチェックを入れてください。
 
 ![代替テキスト](image/pythoninstall5.png)
 
+インストールを完了させてください。
 
 ![代替テキスト](image/pythoninstall6.png)
 
