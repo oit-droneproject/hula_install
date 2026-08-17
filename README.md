@@ -11,7 +11,7 @@ https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
 サイトから「Hula-jp Python[3.12.10] インストールパッケージ」をダウンロードしてください。
 
-![代替テキスト](image/pythoninstall0.png)
+![代替テキスト](./image/pythoninstall0.png)
 
 ダウンロードした zip ファイルを展開します。
 
