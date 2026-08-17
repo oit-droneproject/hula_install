@@ -13,9 +13,8 @@ Hula-jp Python[3.12.10]インストールパッケージをダウンロードし
 問題がなければ、Pyhtonのバージョンは3.12.10にしてください。
 zipファイルにインストールするためのexe.実行ファイルがあります。
 
-![代替テキスト](image/pythoninstall1.png)
-
 以下のファイルを実行してください。
 ```
 python-3.12.10-amd64.exe
 ```
+![代替テキスト](image/pythoninstall2.png)
