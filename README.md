@@ -7,6 +7,7 @@ Hula-jpにPythonのライブラリで制御するためには、pyhulaをイン�
 https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
 Hula-jp Python[3.12.10]インストールパッケージをダウンロードして
+
 ![代替テキスト](image/pythoninstall0.png)
 
 展開して下さい。
@@ -16,11 +17,16 @@ Hula-jp Python[3.12.10]インストールパッケージをダウンロードし
 問題がなければ、Pyhtonのバージョンは3.12.10にしてください。
 zipファイルにインストールするためのexe.実行ファイルがあります。
 以下のフィルを実行してください。
+
 ```bash
 python-3.12.10-amd64.exe
 ```
 
+Add python.exe to Pathにチェックを入れてください。
+
 ![代替テキスト](image/pythoninstall2.png)
+
+
 
 ![代替テキスト](image/pythoninstall3.png)
 
