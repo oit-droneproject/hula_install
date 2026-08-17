@@ -1,22 +1,28 @@
-# install
+# インストール手順
 
-Hula-jpにPythonのライブラリで制御するためには、pyhulaをインストールする必要があります。
-レッドクリフのHula-jpの公式サイトからダウンロードすることが可能です。
+Hula-jp を Python のライブラリから制御するには、`pyhula` をインストールする必要があります。
+`pyhula` は、レッドクリフ社の Hula-jp 公式サイトからダウンロードできます。
 
-## Hula-jp
+## 事前準備：Hula-jp のインストールパッケージを入手する
+
+Hula-jp 公式サイト（レッドクリフ社）にアクセスします。
+
 https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
-Hula-jp Python[3.12.10]インストールパッケージをダウンロードして
+サイトから「Hula-jp Python[3.12.10] インストールパッケージ」をダウンロードしてください。
 
 ![代替テキスト](image/pythoninstall0.png)
 
-展開して下さい。
+ダウンロードした zip ファイルを展開します。
 
 ![代替テキスト](image/pythoninstall1.png)
 
-問題がなければ、Pyhtonのバージョンは3.12.10にしてください。
-zipファイルにインストールするためのexe.実行ファイルがあります。
-以下のフィルを実行してください。
+> **注意:** 動作を保証するため、Python のバージョンは必ず **3.12.10** を使用してください。
+
+## 手順 1：Python 3.12.10 をインストールする
+
+展開したフォルダ内に、Python をインストールするための実行ファイル（`.exe`）が含まれています。
+以下のファイルを実行してください。
 
 ```bash
 python-3.12.10-amd64.exe
@@ -24,41 +30,38 @@ python-3.12.10-amd64.exe
 
 ![代替テキスト](image/pythoninstall2.png)
 
-
-Add python.exe to Pathにチェックを入れてください。
+インストーラーが起動したら、**「Add python.exe to Path」にチェックを入れて**からインストールを進めてください。
+（このチェックを入れておくと、ターミナルから `python` コマンドを直接実行できるようになります。）
 
 ![代替テキスト](image/pythoninstall3.png)
-
-
-
 ![代替テキスト](image/pythoninstall4.png)
-
-
 ![代替テキスト](image/pythoninstall5.png)
 
-インストールを完了させてください。
+画面の指示に従って、インストールを完了させてください。
 
-その後、右クリックをおして、このフォルダで「ターミナルを開く」を押してください。
+## 手順 2：pyhula をインストールする
+
+インストールが完了したら、展開したフォルダ内で右クリックし、**「ターミナルを開く」** を選択します。
 
 ![代替テキスト](image/pythoninstall6.png)
-
-
 ![代替テキスト](image/pythoninstall7.png)
 
-ターミナル上で
-```
+開いたターミナル上で、以下のコマンドを実行して `pyhula` をインストールします。
+
+```bash
 pip install pyhula-1.1.8-cp312-cp312-win_amd64.whl
 ```
-でpyhulaをインストールしてください。
 
 ![代替テキスト](image/pythoninstall8.png)
 
-必要なライブラリは自動でインストールされます。
+必要なライブラリは、このコマンドによって自動でインストールされます。
 
 ![代替テキスト](image/pythoninstall10.png)
 
-最後に
-```
+## 完了の確認
+
+最後に、ターミナルに以下のように表示されれば、インストールは完了です。
+
+```text
 Successfully installed pyhula...
 ```
-と出力されれば完了です。
