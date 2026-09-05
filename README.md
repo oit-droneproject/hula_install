@@ -10,6 +10,8 @@ Hula-jp 公式サイト（レッドクリフ社）にアクセスします。
 https://redcliff-inc.co.jp/service/drone-sales-and-subscription/hula/
 
 サイトから「Hula-jp Python[3.12.10] インストールパッケージ」をダウンロードしてください。
+ダウンロードする場所はどこでも良いですが、ここでは「ダウンロード」とします。
+フォルダの名前が漢字場合はエラーを起こす危険がありますので注意してください。
 
 ![代替テキスト](./image/pythoninstall0.png)
 
